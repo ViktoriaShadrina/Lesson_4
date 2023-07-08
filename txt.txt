@@ -1,0 +1,24 @@
+Виртуально окружение - это папка для хранения библиотек
+
+py -m venv venv - создание ВО
+
+
+
+venv/Scripts/activate - активация ВО
+
+если mac или linux то venv/bin/activate
+
+
+если ошибка - выполнение сценариев отключено:
+1 - открыть PowerShell от имена администратора
+2 - вводите Set-ExecutionPolicy RemoteSigned
+3 - далее вводим A 
+
+pip install django - скачиваем фреймворк Django
+
+
+django-admin startproject main . - создание проекта  в этой же папке
+
+python manage.py runserver - запуск сервера
+или
+py manage.py runserver
